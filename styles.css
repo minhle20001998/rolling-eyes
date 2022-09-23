@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.eye {
+  width: 16rem;
+  height: 16rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 70px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.pupil {
+  width: 4rem;
+  height: 4rem;
+  background-color: red;
+  border-radius: 100%;
+}
+
+img {
+  padding: 5px;
+  position: absolute;
+  transform: scale(2);
+}
